@@ -8,7 +8,7 @@
     <link rel="icon" href="assets\educational.png">
     <title>WEBSITE DEMO</title>
     <style>
-        div.educational{
+        div.container{
             width: 100;
             height: 1800;
             margin: auto;
@@ -16,66 +16,167 @@
         }
         header,footer{
             padding: 10px;
-            color: white;
-            background-color:blue;
+            color:black;
             clear: left;
             text-align: center;
             font-size: xx-large;
+            background-color: burlywood;
         }
-        .class1{
+        /*horizontalnavigation*/
+        
+        .horinov li {
+            color: aliceblue;
+            list-style: none;
+            list-style-type: none;
+            text-decoration: solid;
             display: inline-block;
-
+        }
+        .horinov ul{
+            background-color: beige;
+           
+        }
+        .horinov li a{
+            padding: 10px;
+            margin: 10px;
+        }
+        div ul a{
+            text-decoration: none;
+        }
+        nav {
+            float: left;
+            max-width: 15%;
+            height: inherit; 
+            margin-top: 10px;  
+            margin-left: 0px;
+        }
+        nav ul{ 
+            list-style-type: none;
+            list-style: none;
+            font-size: x-large;
+            
+        }
+        article{
+           
+            float: left;
+            margin-left: 20px;
+            padding: 10px;
+            max-width: 70%;
+            height: inherit;
+            font-size:x-large;
+        }
+        aside {
+            margin-top: 10px;
+            margin-left: 10px;
+            float: left;
+            padding: 10px;
+            max-width: 15%;
+            height: inherit;
+            font-size: x-large;
+            
+        }
+        #para1{
+            color: rgb(57, 30, 210);
+            margin-top: 20px;
+        }
+        #para2{
+            color: darkred;
+        }
+        #para3{
+            color: darkmagenta;
+        }
+        #para4{
+            color:darkgoldenrod
+        }
+        img{
+            padding: 10px;
+            width: 170px;
+            height: 170px;
+            margin-left: 5px;
+            margin-right: 5px;
+            opacity: 0.5;
+        }
+        img:hover{
+            opacity: 1.0;
+            width: 200px;
+            height: 200px;
+        }
+        nav li a:link{
+            color:sandybrown;
+        }
+        nav li a:visited{
+            color: mediumseagreen;
+        }
+        nav li a:hover{
+            color: darkorchid;
+        }
+        nav li a:active{
+            color: hotpink;
+        }
+        body{
+            background-color: bisque;
         }
     </style>
+    
 </head>
 
 <body>
-    <div class="educational">
+    <div class="container">
         <header>
             <h1>prakash educational institute</h1>
-            <ul class="class1">
-                <li><a href="">home</a></li>
-                <li><a href="">about us</a></li>
-                <li><a href="">career</a></li>
-                <li><a href="">contact us</a></li>
+            <ul class="horinov">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Contact Us</a></li>
             </ul>
         </header>
         <!--float demo-->
         <nav>
-            <h1>Navigation</h1>
+            <h1 ><b>Navigation</b></h1>
             <ul>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
-                <li><a href="para1">selection1</a></li>
-                <li><a href="para2">selection2</a></li>
-                <li><a href="para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+                <li><a href="#para1">selection1</a></li>
+                <li><a href="#para2">selection2</a></li>
+                <li><a href="#para3">selection3</a></li>
+               
             </ul>
         </nav>
         <!--navigate to paragraph demo-->
         <article>
-            <h1>article</h1>
+            <h1><b>Article</b></h1>
+            <img src="assets\edu.jpeg" alt="educational" style="float: left;" width="200px"
+                    height="200px">
             <p id="para1">
-                <img src="assets\edu.jpeg" alt="educational" style="float: left;" width="120px"
-                    height="120px">educational
+                educational
                 is the most powerful wepon.
                 Education is a purposeful activity directed at achieving certain aims, such as transmitting knowledge or
                 fostering skills and character traits. These aims may include the development of understanding,
@@ -91,7 +192,7 @@
 
             </p>
             <p id="para2">
-                <img src="assets/edu.jpeg" alt="educational" style="float: right;" width="120px" height="120px">Types of
+                <img src="assets/edu.jpeg" alt="educational" style="float: right;" width="200px" height="200px">Types of
                 education are commonly
                 divided into formal, non-formal, and informal education. Formal education takes place in education and
                 training institutions, is usually structured by curricular aims and objectives, and learning is
@@ -107,8 +208,8 @@
                 upon the structure.
             </p>
             <p id="para3">
-                <img src="assets/edu.jpeg" alt="educational" style="padding: 20px;margin-left: 10px;float: left;"
-                    height="120px" width="120px">Regardless of setting, educational
+                <img src="assets/edu.jpeg" alt="educational" style="padding:20px;float: left;"
+                    height="200px" width="200px">Regardless of setting, educational
                 methods include teaching, training, storytelling, discussion, and directed research. The methodology of
                 teaching is called pedagogy. Education is supported by a variety of different philosophies, theories and
                 empirical research agendas.
@@ -124,21 +225,25 @@
             </p>
         </article>
         <aside>
-            <h1>Aside</h1>
+            <h1><b>Aside</b></h1>
+            <p id="para4">
             They can snatch our farmlands and money, but they cannot seize
-            education.education is one and only most powerful wepon.
+            education.education is one and only most powerful wepon.</p>
             <br>
             <hr>
             <iframe width="220px" height="220px" src="https://www.youtube.com/embed/hzRdlpOc18w"></iframe>
+            <p style="color: orangered;">Actor dhanush explain about education in asuran movie</p>
             <br>
             <hr>
             <iframe width="220px" height="220px" src="https://www.youtube.com/embed/pyPb6JcKmW8"></iframe>
+            <p style="color: blue;">Education about in 10 lines</p>
             <br>
             <hr>
-            <iframe width="220" height="220" src="https://www.youtube.com/embed/25rXzaIw6XU"></iframe>
+            <iframe width="220" height="220" src="https://www.youtube.com/embed/HndV87XpkWg"></iframe>
+            <p style="color: crimson;">Why education needed</p>
             <br>
         </aside>
-        <footer>thank you</footer>
+        <footer>&copy;thank you</footer>
 
     </div>
 
