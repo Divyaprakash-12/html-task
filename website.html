@@ -15,6 +15,7 @@
             border: none;
         }
         div h1{
+            display: inline-block;
             background: #833ab4;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -23,6 +24,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
         div.li:hover{
             text-decoration-line:underline;
         }
+       
         header,footer{
             padding: 10px;
             color:black;
@@ -47,6 +49,9 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
         .horinov li a{
             padding: 10px;
             margin: 10px;
+            background: #E55D87;  
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  
+background: linear-gradient(to right, #5FC3E4, #E55D87); 
         }
         div ul a{
             text-decoration: none;
@@ -97,11 +102,11 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
             color:darkgoldenrod
         }
         img.a{
-            float: right;
+            float:right;
             margin: 20px;
             margin-left: 200px;  
-            height: 10px;
-            width: 10px;
+            height: 200px;
+            width: 200px;
         }
         #b{
             padding: 10px;
@@ -139,6 +144,129 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
         a:hover{
             text-decoration: underline;
             color:aqua;
+        }
+        table {
+            margin-left: 400px;
+            margin-top: 100px;
+            width: 600px;
+            height: 300px;
+           
+
+        }
+
+        caption {
+            color: #ec2F4B;
+            margin-bottom: 20px;
+            font-size:x-large ;
+            font-variant: small-caps;
+            background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            height: 40px;
+        }
+
+        caption:hover {
+            margin-top: 10px;
+            height: 50px;
+            font-style: italic;
+            font-size: xx-large;
+            color: beige;
+            background: #009FFF;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #ec2F4B, #009FFF);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        th{
+            font-size: large;
+            font-variant: small-caps;
+            padding: 10px;
+            margin: 10px;
+            height: 10px;
+            color: #ec2F4B;
+            background: #1F1C2C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        }th:hover{
+            padding: 20px;
+            margin: 20px;
+            height: 20px;
+            font-size: x-large;
+            font-style: italic;
+            color:ivory;
+            background: #1e130c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        tr:nth-child(odd) {
+            font-size: large;
+            font-variant: small-caps;
+            padding: 30px;
+            margin: 30px;
+            height: 30px;
+            color: rgb(233, 117, 40);
+            background: #000000;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        tr:nth-child(even) {
+            font-size: large;
+            font-variant: small-caps;
+            padding: 30px;
+            margin: 30px;
+            height: 30px;
+            color: darkcyan;
+            background: #141E30;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #243B55, #141E30);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #243B55, #141E30);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        }
+
+        tr:nth-child(odd):hover {
+            padding: 40px;
+            margin: 40px;
+            height: 40px;
+            font-size: x-large;
+            font-style: italic;
+            color: #ec2F4B;
+            background: #03001e;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        tr:nth-child(even):hover {
+            padding: 40px;
+            margin: 40px;
+            height: 40px;
+            font-size: x-large;
+            font-style: italic;
+            color: fuchsia;
+            background: #000000;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #e74c3c, #000000);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #e74c3c, #000000);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
         
     </style>
@@ -273,7 +401,43 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+
         <footer>&copy;thank you</footer>
 
     </div>
+    <table border="3">
+        <header>
+            <caption><b>details</b></caption>
+        </header>
+        <tr>
+            <th>names</th>
+            <th>age</th>
+            <th>qualification</th>
+        </tr>
+        <tr>
+            <td>karthi</td>
+            <td>19</td>
+            <td>bsc-it</td>
+        </tr>
+        <tr>
+            <td>raj</td>
+            <td>22</td>
+            <td>bca</td>
+        </tr>
+        <tr>
+            <td>swetha</td>
+            <td>19</td>
+            <td>bsc-cs</td>
+        </tr>
+        <tr>
+            <td>madhu</td>
+            <td>20</td>
+            <td>bcom</td>
+        </tr>
+        <tr>
+            <td>divya</td>
+            <td>20</td>
+            <td>bsc-it</td>
+        </tr>
 
+
+    </table>
 </body>
 
 </html>
