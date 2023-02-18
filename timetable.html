@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #f2709c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        table {
+            margin-left: 400px;
+            margin-top: 100px;
+            width: 600px;
+            height: 300px;
+           
+
+        }
+
+        caption {
+            color: #ec2F4B;
+            margin-bottom: 20px;
+            font-size:x-large ;
+            font-variant: small-caps;
+            background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            height: 40px;
+        }
+
+        caption:hover {
+            margin-top: 10px;
+            height: 50px;
+            font-style: italic;
+            font-size: xx-large;
+            color: beige;
+            background: #009FFF;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #ec2F4B, #009FFF);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        th{
+            font-size: large;
+            font-variant: small-caps;
+            padding: 10px;
+            margin: 10px;
+            height: 10px;
+            color: #ec2F4B;
+            background: #1F1C2C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        }th:hover{
+            padding: 20px;
+            margin: 20px;
+            height: 20px;
+            font-size: x-large;
+            font-style: italic;
+            color:ivory;
+            background: #1e130c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        tr:nth-child(odd) {
+            font-size: large;
+            font-variant: small-caps;
+            padding: 30px;
+            margin: 30px;
+            height: 30px;
+            color: rgb(233, 117, 40);
+            background: #000000;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        tr:nth-child(even) {
+            font-size: large;
+            font-variant: small-caps;
+            padding: 30px;
+            margin: 30px;
+            height: 30px;
+            color: darkcyan;
+            background: #141E30;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #243B55, #141E30);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #243B55, #141E30);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        }
+
+        tr:nth-child(odd):hover {
+            padding: 40px;
+            margin: 40px;
+            height: 40px;
+            font-size: x-large;
+            font-style: italic;
+            color: #ec2F4B;
+            background: #03001e;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        tr:nth-child(even):hover {
+            padding: 40px;
+            margin: 40px;
+            height: 40px;
+            font-size: x-large;
+            font-style: italic;
+            color: fuchsia;
+            background: #000000;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #e74c3c, #000000);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #e74c3c, #000000);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        h1 {
+            color: blue;
+            font-size: x-large;
+            font-style: italic;
+            margin-left: 20px;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 2px blue, 4px 4px 4px orangered;
+        }
+
+        h2 {
+            font-size: x-large;
+            font-style: italic;
+            margin-left: 20px;
+            margin-bottom: 40px;
+            text-shadow: 20px 6px 2px sandybrown, 30px 6px 2px skyblue;
+        }
+        img{
+            margin-left: 30px;
+            margin-bottom: 30px;
+            -webkit-box-reflect: 10px 6px 2px red;
+        }
+        div{
+            height: 250px;
+            margin-bottom: 100px;
+            width: 400px;
+            background-color: #ec2F4B;
+            box-shadow: 5px 5px 5px blue,10px 10px 10px rgb(224, 114, 24);
+        }
+        img{
+            
+            -webkit-box-reflect: right 3px linear-gradient(to bottom, rgba(56, 240, 117, 0), rgba(0,0,0,0.4));
+        }
+        #position{
+            float: left;
+            font-size: x-large;
+            color: #243B55;
+            background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="position">positioning elements</h1>
+    <table border="3">
+        <header>
+            <caption><b>details</b></caption>
+        </header>
+        <tr>
+            <th>names</th>
+            <th>age</th>
+            <th>qualification</th>
+        </tr>
+        <tr>
+            <td>karthi</td>
+            <td>19</td>
+            <td>bsc-it</td>
+        </tr>
+        <tr>
+            <td>raj</td>
+            <td>22</td>
+            <td>bca</td>
+        </tr>
+        <tr>
+            <td>swetha</td>
+            <td>19</td>
+            <td>bsc-cs</td>
+        </tr>
+        <tr>
+            <td>madhu</td>
+            <td>20</td>
+            <td>bcom</td>
+        </tr>
+        <tr>
+            <td>divya</td>
+            <td>20</td>
+            <td>bsc-it</td>
+        </tr>
+
+
+    </table>
+    <h1>hi</h1>
+    <h2>css</h2>
+    <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi, autem voluptate, fugiat voluptas
+        distinctio cum facere asperiores quidem sit quibusdam nam numquam. Iste reiciendis dolore quo, vitae deleniti
+        cum.</p></div>
+        <img src="assets\tiger-jpg.jpg" height="200px" width="200px">
+
+</body>
+
+</html>
